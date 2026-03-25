@@ -1,4 +1,4 @@
-# TetUtils 
+# TextUtils 
 
 A React-based text utility app that helps you 
 
