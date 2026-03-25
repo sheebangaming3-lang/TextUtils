@@ -28,9 +28,8 @@ function Text(props) {
   }
 
   const handleCopy = () => {
-      var text = document.getElementById("myBox");
-      text.select();
-      navigator.clipboard.writeText(text.value);
+    
+      navigator.clipboard.writeText(text);
       props.showAlert("Clicked to copy Text" , "success")
   }
 
